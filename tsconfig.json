@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "alwaysStrict": true,
+    "baseUrl": "./src",
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": [
+        "dom",
+        "es6",
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noFallthroughCasesInSwitch": true,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "outDir": "./lib",
+    "sourceMap": true,
+    // "strictPropertyInitialization": true,  /* Enable strict checking of property initialization in classes. */
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es6",
+  },
+  "include": [
+    "./src/**/*",
+  ],
+  "exclude": [
+    "**/*.spec.*"
+  ],
+}

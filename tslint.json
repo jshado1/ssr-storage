@@ -1,0 +1,11 @@
+{
+    "extends": [
+        "tslint:recommended",
+        "tslint-no-unused-expression-chai" // must be after
+    ],
+    "rules": {
+        "curly": [true, "ignore-same-line"],
+        "no-bitwise": false,
+        "quotemark": [true, "single"]
+    }
+}
