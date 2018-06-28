@@ -1,9 +1,6 @@
+import Document from './cookie';
 import { LocalStorage, SessionStorage } from './webstorage';
-declare const _default: {
-    document: {
-        cookie: string;
-    };
-    localStorage: LocalStorage;
-    sessionStorage: SessionStorage;
-};
-export default _default;
+declare const doc: Document;
+declare const locStorage: LocalStorage;
+declare const sesStorage: SessionStorage;
+export { doc, locStorage, sesStorage, };

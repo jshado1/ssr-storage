@@ -1,11 +1,16 @@
-import document from './cookie';
+import Document from './cookie';
 import {
     LocalStorage,
     SessionStorage,
 } from './webstorage';
 
-export default {
-    document,
-    localStorage: new LocalStorage(),
-    sessionStorage: new SessionStorage(),
+// avoid conflicts with globals
+const doc = new Document();
+const locStorage = new LocalStorage();
+const sesStorage = new SessionStorage();
+
+export {
+    doc,
+    locStorage,
+    sesStorage,
 };
