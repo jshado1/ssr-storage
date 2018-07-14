@@ -1,14 +1,14 @@
 {
   "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
     "alwaysStrict": true,
-    "baseUrl": "./src",
+    "baseUrl": ".",
     "declaration": true,
     "esModuleInterop": true,
     "lib": [
-        "dom",
-        "es2017",
+      "dom",
+      "es2017"
     ],
-    "module": "commonjs",
     "moduleResolution": "node",
     "noFallthroughCasesInSwitch": true,
     "noImplicitAny": true,
@@ -19,12 +19,12 @@
     "sourceMap": true,
     // "strictPropertyInitialization": true,  /* Enable strict checking of property initialization in classes. */
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es6",
+    "target": "es6"
   },
   "include": [
-    "./src/**/*",
+    "./src/**/*"
   ],
   "exclude": [
     "**/*.spec.*"
-  ],
+  ]
 }
