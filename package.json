@@ -4,7 +4,7 @@
     "url": "https://github.com/jshado1/ssr-storage/issues"
   },
   "dependencies": {
-    "lodash": "^4.17.13",
+    "lodash": "^4.17.21",
     "lodash-es": "^4.17.14"
   },
   "devDependencies": {
